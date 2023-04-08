@@ -9,8 +9,8 @@ and a critic to estimate the Q(s, a).
 
 
 
-## 2. DDPG Algorithm
-I used **DDPG** to solve this environment. The actor used to estimate the actions is a 
+## 2. MADDPG Algorithm
+I used **Multi-agent DDPG** to solve this environment. The actor used to estimate the actions is a 
 multi-layer perceptron with two hidden layers; first layer with 256 and the second
 layer with 128 nodes. Hidden layers have _ReLu_ and the output layer has _tanh_ 
 activation function. The critic is used to estimate the `Q(s, a)` is the same neural
