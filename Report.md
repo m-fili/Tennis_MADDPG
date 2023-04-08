@@ -49,7 +49,7 @@ where OHN, is the Ornstein-Uhlenbeck noise.
 
 
 ### 4. Training the agent
-The agent exceeded the target score (30.0) in less than 400 episodes! 
+The agent exceeded the target score (0.5) in 1,735 episodes! 
 Here is rewards plot collected during the agent training:
 
 <img src="Images/scores.png" height="313">
