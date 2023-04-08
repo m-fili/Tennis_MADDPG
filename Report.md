@@ -1,10 +1,10 @@
 # Report
 
 ## 1. Introduction
-In this project, an actor-critic method called "Deep deterministic policy
-gradients" is used to solve Reacher environment. This algorithm uses a replay 
+In this project, a multi-agent actor-critic method called "Multi Agent Deep deterministic 
+policy gradients" is used to solve __Tennis__ environment. This algorithm uses a replay 
 buffer to store past experiences (like DQN) which helps to de-correlate them and 
-also help remember old experiences. This algorithm uses an actor to estimate actions
+also help remember old experiences. This algorithm incorporates an actor to estimate actions
 and a critic to estimate the Q(s, a).
 
 
@@ -58,7 +58,12 @@ Here is rewards plot collected during the agent training:
 
 
 ### 5. Future Improvements
-In this project, a DDPG algorithm is utilized to train the agent. 
-To improve the training, one way would be to use __share experience__ across 
-multiple agents which can speed up the learning.
+In this project, a Multi-agent DDPG algorithm is utilized to train the agent. The training
+took some time since different combination of hyperparameters were tried. Suggestions for 
+future improvements are:
+
+- Hyperparameter tuning
+- Use shared replay buffer for both agents
+- Concatenate both agents states and actions to a single state and action and use single
+DDPG Algorithm to train the agent.
 
