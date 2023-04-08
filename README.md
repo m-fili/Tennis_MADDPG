@@ -3,7 +3,7 @@
 
 |             Random Agent             |             Trained Agent             |
 |:------------------------------------:|:-------------------------------------:|
-| <img src="Images/random_agent.gif">  | <img src="Images/trained_agent.gif">  |
+| <img src="Images/Tennis_random.gif"> | <img src="Images/Tennis_trained.gif"> |
 
 
 
